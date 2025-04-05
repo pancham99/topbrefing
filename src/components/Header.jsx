@@ -8,7 +8,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import bgimage from '../assets/bgimage.webp';
 import add from '../assets/add.jpg';
 import Image from 'next/image';
-import Header_Category from './Header_Category';
+// import Header_Category from './Header_Category';
 
 
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <Header_Category />
+            {/* <Header_Category /> */}
         </div>
     )
 }
